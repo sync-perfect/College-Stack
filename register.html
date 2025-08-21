@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+
+    <label for="username">Username:</label>
+    <input type="text" name="username" id="username" placeholder="Username" required>
+
+    <label for="email">E-Mail:</label>
+    <input type="email" name="email" id="email" placeholder="E-Mail"><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="password" placeholder="Password" required>
+
+    <label for="gender">Gender:</label>
+    <input type="radio" name="gender" id="male" value="Male" required>Male
+    <input type="radio" name="gender" id="female" value="Female" required>Female
+    <br><br>
+
+    <label for="dob">Date-of-Birth:</label>
+    <input type="date" name="dob" id="dob" required>
+
+    <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select your country</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="Canada">Canada</option>
+            <option value="Australia">Australia</option>
+        </select><br><br>
+
+    <label for="skills">Skills:</label>
+    <input type="checkbox" name="skills" id="html" value="HTML">
+    <label for="html">HTML</label>
+    <input type="checkbox" name="skills" id="css" value="CSS">
+    <label for="css">CSS</label>
+    <input type="checkbox" name="skills" id="js" value="JS">
+    <label for="js">JS</label>
+    <input type="checkbox" name="skills" id="java" value="Java">
+    <label for="java">Java</label>
+    <input type="checkbox" name="skills" id="python" value="Python">
+    <label for="python">Python</label><br><br>
+
+    <button type="submit">Register</button>
+
+</body>
+</html>

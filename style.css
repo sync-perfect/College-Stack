@@ -9,9 +9,15 @@ h1, h2{
     color: palevioletred;
 }
 
-#nav-links li a {
+#nav-links a {
     color: aliceblue;
     text-decoration: none;
+    font-size: 1.8rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
 }
 
 #nav-links li a:hover {
